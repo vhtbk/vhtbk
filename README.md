@@ -14,4 +14,4 @@ My expertise lies in data center management, backbone operations, infrastructure
 
 ### 📫 How to best reach out:
 - [LinkedIn](https://www.linkedin.com/in/vahittabak)
-- [Twitter](https://twitter.com/vahittabak.com)
+- [Twitter](https://twitter.com/vahittabak)
