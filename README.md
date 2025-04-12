@@ -8,15 +8,15 @@ My expertise includes data center management, backbone operations, infrastructur
 
 ### Skills 🛠️
 
-- **IAM** OpenLDAP, FreeIPA(Red Hat IdM), 389-DS(Red Hat DS), Keycloak(Red HatSSO), Active Directory, Entra ID, Shibboleth
-- **AA** LDAP, Kerberos, SAML, OIDC
-- **Network AA** RADIUS, FreeRADIUS, Radiator
-- **IaC** Foreman, Puppet
-- **OS** RHEL, Debian
+- **IAM**: OpenLDAP, FreeIPA(Red Hat IdM), 389-DS(Red Hat DS), Keycloak(Red HatSSO), Active Directory, Entra ID, Shibboleth
+- **AA**: LDAP, Kerberos, SAML, OIDC
+- **Network AA**: RADIUS, FreeRADIUS, Radiator
+- **IaC**: Foreman, Puppet
+- **OS**: RHEL, Debian
 - **Kubernetes**
-- **Programming** (C, Python, Bash)
-- **Monitoring** (ELK, CheckMK, LibreNMS, Cacti)
-- **Virtualization** (VMware)
+- **Programming**: C, Python, Bash
+- **Monitoring**: ELK, CheckMK, LibreNMS, Cacti
+- **Virtualization**: VMware
 
 ---
 
