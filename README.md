@@ -13,7 +13,7 @@ My expertise includes data center management, backbone operations, infrastructur
 - **Network AA**: RADIUS, FreeRADIUS, Radiator
 - **IaC**: Foreman, Puppet
 - **OS**: RHEL, Debian
-- **Kubernetes**
+- **Containerization&Orchestration**: Kubernetes(RKE), Docker, Helm, Helmfile
 - **Programming**: C, Python, Bash
 - **Monitoring**: ELK, CheckMK, LibreNMS, Cacti
 - **Virtualization**: VMware
