@@ -8,11 +8,13 @@ My expertise includes data center management, backbone operations, infrastructur
 
 ### Skills 🛠️
 
-- **Linux** (RHEL, Debian)
-- **Infrastructure as Code (IaC)** (Foreman, Puppet)
-- **Identity Management** (FreeIPA, 389-DS, Active Directory, OpenLDAP)
+- **IAM** OpenLDAP, FreeIPA(Red Hat IdM), 389-DS(Red Hat DS), Keycloak(Red HatSSO), Active Directory, Entra ID, Shibboleth
+- **AA** LDAP, Kerberos, SAML, OIDC
+- **Network AA** RADIUS, FreeRADIUS, Radiator
+- **IaC** Foreman, Puppet
+- **OS** RHEL, Debian
 - **Kubernetes**
-- **Programming** (Python, Bash)
+- **Programming** (C, Python, Bash)
 - **Monitoring** (ELK, CheckMK, LibreNMS, Cacti)
 - **Virtualization** (VMware)
 
