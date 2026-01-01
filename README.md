@@ -1,29 +1,33 @@
 ## Hi there 👋
 
-My name is Vahit Tabak. I'm a Systems and Site Reliability Engineer with over 15 years of hands-on experience in large, diverse IT environments. I studied Electronic and Telecommunication Engineering, and have worked in both the telecom sector and academic organisation.
+My name is Vahit Tabak. I'm a Systems and Site Reliability Engineer with over 16 years of experience running large, complex IT systems. I studied Electronic and Telecommunication Engineering and have worked in both telecoms and academic environments.
 
-I have strong skills in Identity and Access Management, Infrastructure as Code, large-scale data transfer systems, automation, and maintaining reliable services. I've led IAM and IaC projects and have built secure, scalable infrastructure.
+I specialise in Linux systems, Identity and Access Management, automation, and Infrastructure as Code.
 
-I'm comfortable working in both telecom and academic environments, looking after critical systems that need to run without fail. I have solid experience in Linux server administration, IAM, IaC, monitoring, and integrating cloud and on-prem systems. I enjoy solving complex problems, keeping systems stable, and improving workflows through effective automation and monitoring. I collaborate well across teams and always aim to deliver secure, dependable services.
+I've deployed and operated thousands Linux hosts, on-prem Kubernetes clusters, enterprise email platforms, storage and data transfer systems, DNS, monitoring, and network security services, working closely with network engineers, system and database administrators, and developers.
+
+I program confidently in Python and Bash, and most of the systems I support are large-scale, telco-grade services, with a strong focus on security, stability, and reliability.
 
 ---
 
 ### Skills 🛠️
 
-- **IAM**: OpenLDAP, FreeIPA(Red Hat IdM), 389-DS(Red Hat DS), Keycloak(Red Hat SSO), Active Directory, Entra ID, Shibboleth
-- **AA**: LDAP, Kerberos, SAML, OIDC
-- **Network AA**: RADIUS, FreeRADIUS, Radiator
-- **IaC**: Foreman, Puppet
-- **OS**: RHEL, Debian
-- **Database**: PostgreSQL 
-- **Storage and File Systems**: NetApp, NFS, S3-compatible storage
-- **High-Volume Data Transfer**: Globus, Aspera, FTP, rsync, HTTP-based services
-- **Containerization and Orchestration**: Kubernetes(RKE), Docker, Helm, Helmfile
-- **Programming and Scripting**: Python, Lisp, Bash
-- **Monitoring and Observability**: ELK, CheckMK, Nagios, Cacti, syslog
-- **Virtualization**: VMware vSphere
-- **Ticketing and ITSM Tools**: ServiceNow, Request Tracker (RT)
-- **Collaboration**: Cross-functional teamwork with research, engineering, cloud, and development teams
+- **IAM:** OpenLDAP, FreeIPA(Red Hat IdM), 389-DS(Red Hat DS), Keycloak(Red Hat SSO), Active Directory, Entra ID, Shibboleth
+- **AA:** LDAP, Kerberos, SAML, OIDC
+- **Network AA:** RADIUS, FreeRADIUS, Radiator
+- **IaC:** Foreman, Puppet, Ansible
+- **OS:** RHEL, Debian, Ubuntu
+- **HPC:** Slurm
+- **GitOps-Driven CI/CD:** GitLab, Gerrit, Rundeck
+- **Database:** PostgreSQL
+- **Storage and File Systems:** NetApp, NFS, S3-compatible storage
+- **High-Volume Data Transfer:** Globus, FTP, rsync, HTTP-based services
+- **Containerization and Orchestration:** Kubernetes, Docker, Helm, Helmfile
+- **Programming and Scripting:** Python, Lisp, Bash
+- **Monitoring and Observability:** ELK, syslog, Nagios, CheckMK, Cacti
+- **Cloud and Virtualization:** Google Cloud Platform (GCP), VMware vSphere
+- **Ticketing and ITSM Tools:** ServiceNow, Request Tracker (RT)
+- **Collaboration:** Cross-functional teamwork with research, engineering, cloud, and development teams
 
 ---
 
@@ -32,4 +36,5 @@ I'm comfortable working in both telecom and academic environments, looking after
 Feel free to reach out via the following platforms:
 
 - [LinkedIn](https://www.linkedin.com/in/vahittabak)
+- [GitHub](https://github.com/vhtbk)
 - [Twitter](https://twitter.com/vahittabak)
