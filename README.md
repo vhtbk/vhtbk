@@ -12,6 +12,7 @@ I program confidently in Python and Bash, and most of the systems I support are 
 
 ### Skills 🛠️
 
+- **Architectural Design:** Solution Architecture, System Integration, IAM Strategy, Technical Roadmapping  
 - **IAM:** OpenLDAP, FreeIPA(Red Hat IdM), 389-DS(Red Hat DS), Keycloak(Red Hat SSO), Active Directory, Entra ID, Shibboleth
 - **AA:** LDAP, Kerberos, SAML, OIDC
 - **Network AA:** RADIUS, FreeRADIUS, Radiator
@@ -27,7 +28,6 @@ I program confidently in Python and Bash, and most of the systems I support are 
 - **Monitoring and Observability:** ELK, syslog, Nagios, CheckMK, Cacti
 - **Cloud and Virtualization:** Google Cloud Platform (GCP), VMware vSphere
 - **Ticketing and ITSM Tools:** ServiceNow, Request Tracker (RT)
-- **Collaboration:** Cross-functional teamwork with research, engineering, cloud, and development teams
 
 ---
 
