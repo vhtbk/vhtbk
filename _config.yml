@@ -1,0 +1,33 @@
+# Site settings — built by GitHub Pages (classic Jekyll build from `main`, repo root).
+# Changes here require no local tooling; GitHub rebuilds on push.
+
+title: Vahit Tabak
+tagline: Systems and Site Reliability Engineer
+description: >-
+  Vahit Tabak is a Systems and Site Reliability Engineer with over 16 years of
+  experience running large, complex IT systems: Linux, Identity and Access
+  Management and Infrastructure as Code.
+url: https://vhtbk.com   # must match CNAME
+lang: en
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+
+plugins:
+  - jekyll-sitemap
+
+# GitHub Pages enables this by default; titles are set in the layout instead.
+titles_from_headings:
+  enabled: false
+
+# Repository files that must never be published as pages.
+# README.md is the GitHub profile README.
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- if page.url == "/" %}
+  {%- assign full_title = site.title | append: " – " | append: site.tagline %}
+  {%- else %}
+  {%- assign full_title = page.title | append: " – " | append: site.title %}
+  {%- endif %}
+  {%- assign description = page.description | default: site.description | strip_newlines | strip %}
+  {%- assign canonical = page.url | replace: "index.html", "" | prepend: site.url %}
+  <title>{{ full_title }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta name="author" content="{{ site.title }}">
+  {%- if page.robots %}
+  <meta name="robots" content="{{ page.robots }}">
+  {%- else %}
+  <link rel="canonical" href="{{ canonical }}">
+  {%- endif %}
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14181c" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{ full_title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:image" content="{{ site.url }}/assets/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ site.title }}, {{ site.tagline }}">
+  <meta property="profile:first_name" content="Vahit">
+  <meta property="profile:last_name" content="Tabak">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@vahittabak">
+  {%- if page.url == "/" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Vahit Tabak",
+    "jobTitle": "Systems and Site Reliability Engineer",
+    "url": "{{ site.url }}/",
+    "sameAs": [
+      "https://www.linkedin.com/in/vahittabak",
+      "https://github.com/vhtbk",
+      "https://x.com/vahittabak"
+    ]
+  }
+  </script>
+  {%- endif %}
+  <style>
+{% include site.css %}
+  </style>
+</head>
+<body>
+  <main>
+{{ content }}
+  </main>
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} Vahit Tabak</p>
+  </footer>
+</body>
+</html>
